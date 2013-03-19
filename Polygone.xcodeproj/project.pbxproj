@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FDF839C16F8D67000A66019 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FDF839B16F8D67000A66019 /* UIKit.framework */; };
+		8FDF839E16F8D67000A66019 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FDF839D16F8D67000A66019 /* Foundation.framework */; };
+		8FDF83A016F8D67000A66019 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FDF839F16F8D67000A66019 /* CoreGraphics.framework */; };
+		8FDF83A616F8D67000A66019 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FDF83A416F8D67000A66019 /* InfoPlist.strings */; };
+		8FDF83A816F8D67000A66019 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDF83A716F8D67000A66019 /* main.m */; };
+		8FDF83AC16F8D67000A66019 /* AmAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDF83AB16F8D67000A66019 /* AmAppDelegate.m */; };
+		8FDF83AF16F8D67000A66019 /* AmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDF83AE16F8D67000A66019 /* AmViewController.m */; };
+		8FDF83B216F8D67100A66019 /* AmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FDF83B016F8D67100A66019 /* AmViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8FDF839716F8D67000A66019 /* Polygone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polygone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FDF839B16F8D67000A66019 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8FDF839D16F8D67000A66019 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8FDF839F16F8D67000A66019 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8FDF83A316F8D67000A66019 /* Polygone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Polygone-Info.plist"; sourceTree = "<group>"; };
+		8FDF83A516F8D67000A66019 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8FDF83A716F8D67000A66019 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FDF83A916F8D67000A66019 /* Polygone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Polygone-Prefix.pch"; sourceTree = "<group>"; };
+		8FDF83AA16F8D67000A66019 /* AmAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmAppDelegate.h; sourceTree = "<group>"; };
+		8FDF83AB16F8D67000A66019 /* AmAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmAppDelegate.m; sourceTree = "<group>"; };
+		8FDF83AD16F8D67000A66019 /* AmViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmViewController.h; sourceTree = "<group>"; };
+		8FDF83AE16F8D67000A66019 /* AmViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmViewController.m; sourceTree = "<group>"; };
+		8FDF83B116F8D67100A66019 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AmViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FDF839416F8D67000A66019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FDF839C16F8D67000A66019 /* UIKit.framework in Frameworks */,
+				8FDF839E16F8D67000A66019 /* Foundation.framework in Frameworks */,
+				8FDF83A016F8D67000A66019 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FDF838C16F8D67000A66019 = {
+			isa = PBXGroup;
+			children = (
+				8FDF83A116F8D67000A66019 /* Polygone */,
+				8FDF839A16F8D67000A66019 /* Frameworks */,
+				8FDF839816F8D67000A66019 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FDF839816F8D67000A66019 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FDF839716F8D67000A66019 /* Polygone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FDF839A16F8D67000A66019 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FDF839B16F8D67000A66019 /* UIKit.framework */,
+				8FDF839D16F8D67000A66019 /* Foundation.framework */,
+				8FDF839F16F8D67000A66019 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FDF83A116F8D67000A66019 /* Polygone */ = {
+			isa = PBXGroup;
+			children = (
+				8FDF83AA16F8D67000A66019 /* AmAppDelegate.h */,
+				8FDF83AB16F8D67000A66019 /* AmAppDelegate.m */,
+				8FDF83AD16F8D67000A66019 /* AmViewController.h */,
+				8FDF83AE16F8D67000A66019 /* AmViewController.m */,
+				8FDF83B016F8D67100A66019 /* AmViewController.xib */,
+				8FDF83A216F8D67000A66019 /* Supporting Files */,
+			);
+			path = Polygone;
+			sourceTree = "<group>";
+		};
+		8FDF83A216F8D67000A66019 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FDF83A316F8D67000A66019 /* Polygone-Info.plist */,
+				8FDF83A416F8D67000A66019 /* InfoPlist.strings */,
+				8FDF83A716F8D67000A66019 /* main.m */,
+				8FDF83A916F8D67000A66019 /* Polygone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FDF839616F8D67000A66019 /* Polygone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FDF83B516F8D67100A66019 /* Build configuration list for PBXNativeTarget "Polygone" */;
+			buildPhases = (
+				8FDF839316F8D67000A66019 /* Sources */,
+				8FDF839416F8D67000A66019 /* Frameworks */,
+				8FDF839516F8D67000A66019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Polygone;
+			productName = Polygone;
+			productReference = 8FDF839716F8D67000A66019 /* Polygone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FDF838E16F8D67000A66019 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Am;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = mickaelandrieu;
+			};
+			buildConfigurationList = 8FDF839116F8D67000A66019 /* Build configuration list for PBXProject "Polygone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8FDF838C16F8D67000A66019;
+			productRefGroup = 8FDF839816F8D67000A66019 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FDF839616F8D67000A66019 /* Polygone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FDF839516F8D67000A66019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FDF83A616F8D67000A66019 /* InfoPlist.strings in Resources */,
+				8FDF83B216F8D67100A66019 /* AmViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FDF839316F8D67000A66019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FDF83A816F8D67000A66019 /* main.m in Sources */,
+				8FDF83AC16F8D67000A66019 /* AmAppDelegate.m in Sources */,
+				8FDF83AF16F8D67000A66019 /* AmViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8FDF83A416F8D67000A66019 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FDF83A516F8D67000A66019 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8FDF83B016F8D67100A66019 /* AmViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FDF83B116F8D67100A66019 /* en */,
+			);
+			name = AmViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FDF83B316F8D67100A66019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8FDF83B416F8D67100A66019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FDF83B616F8D67100A66019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Polygone/Polygone-Prefix.pch";
+				INFOPLIST_FILE = "Polygone/Polygone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8FDF83B716F8D67100A66019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Polygone/Polygone-Prefix.pch";
+				INFOPLIST_FILE = "Polygone/Polygone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FDF839116F8D67000A66019 /* Build configuration list for PBXProject "Polygone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FDF83B316F8D67100A66019 /* Debug */,
+				8FDF83B416F8D67100A66019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FDF83B516F8D67100A66019 /* Build configuration list for PBXNativeTarget "Polygone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FDF83B616F8D67100A66019 /* Debug */,
+				8FDF83B716F8D67100A66019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FDF838E16F8D67000A66019 /* Project object */;
+}
