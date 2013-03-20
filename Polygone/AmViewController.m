@@ -8,27 +8,30 @@
 
 #import "AmViewController.h"
 
-@interface AmViewController ()
-
-@end
-
 @implementation AmViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+AmPolygone * _polygone;
+
+- (void)viewDidLoad {
+    // equivalent of "new"
+    _polygone = [[AmPolygone alloc]init];
+    [_polygone setNumberOfSide: 5];
 }
 
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
+
+- (IBAction)more:(id)sender {
+    int nb = [_polygone numberOfSide];
+    nb++;
+    [_polygone setNumberOfSide: nb];
+    
+    NSLog(@"Polygone a %d côtés : %@",[_polygone numberOfSide], [_polygone name]);
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+- (IBAction)less:(id)sender {
+    int nb = [_polygone numberOfSide];
+    nb--;
+    [_polygone setNumberOfSide: nb];
+    NSLog(@"Polygone a %d côtés : %@",[_polygone numberOfSide], [_polygone name]);
 }
-
 @end

@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AmPolygone.h"
 
 @interface AmViewController : UIViewController
+- (IBAction)more:(id)sender;
+
+- (IBAction)less:(id)sender;
 
 @end
